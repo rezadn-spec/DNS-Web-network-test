@@ -17,3 +17,4 @@ This bash script performs DNS responsiveness testing with cache busting, interna
 ```bash
 chmod +x dns_test_v12.sh
 ./dns_test_v12.sh
+Reza
