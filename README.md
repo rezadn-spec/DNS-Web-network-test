@@ -13,8 +13,10 @@ This bash script performs DNS responsiveness testing with cache busting, interna
 - Public IP detection
 - Web response timing (TCP, TLS, TTFB)
 
+- Reza
+
 ## Usage
 ```bash
 chmod +x dns_test_v12.sh
 ./dns_test_v12.sh
-Reza
+
