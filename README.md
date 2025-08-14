@@ -13,7 +13,7 @@ This bash script performs DNS responsiveness testing with cache busting, interna
 - Public IP detection
 - Web response timing (TCP, TLS, TTFB)
 
-- Reza
+  Reza
 
 ## Usage
 ```bash
