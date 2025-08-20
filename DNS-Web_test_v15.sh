@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # dns_test_v15.sh
-# DNS responsiveness test with traceroute vs ping hop comparison, cache busting, internal DNS timing, and full network metrics — simplified version
+# DNS responsiveness test with traceroute vs ping hop comparison, cache busting, internal DNS timing, and full network metrics
 
 DOMAINS=("www.bahn.de" "www.dhl.de" "www.wetter.com")
 OUTPUT_FILE="dns_test_results_v15.csv"
