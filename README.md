@@ -13,6 +13,7 @@ This bash script performs DNS responsiveness testing with cache busting, interna
 - Public IP detection
 - Web response timing (TCP, TLS, TTFB)
 
+ ---
  
 ## What's New in v1.5
 
