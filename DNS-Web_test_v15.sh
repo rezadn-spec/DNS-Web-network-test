@@ -5,7 +5,7 @@
 
 DOMAINS=("www.bahn.de" "www.dhl.de" "www.wetter.com")
 OUTPUT_FILE="dns_test_results_v15.csv"
-INTERNAL_DNS="61.8.132.52"
+INTERNAL_DNS="Hidden"
 INITIAL_TTL=64
 
 # Write CSV header
