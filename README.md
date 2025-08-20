@@ -13,12 +13,7 @@ This bash script performs DNS responsiveness testing with cache busting, interna
 - Public IP detection
 - Web response timing (TCP, TLS, TTFB)
 
-## Usage
-```bash
-chmod +x dns_test_v12.sh
-./dns_test_v12.sh
-
----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 What's New in v1.5
 RAN/Private IP Detection
 Extracts the UE’s private IP (typically 10.x.x.x) from the rmnet interface using ifconfig.
@@ -34,3 +29,5 @@ Metric Renaming
 Renamed hop_count to hop_count_traceroute for clarity.
 
 Distinguishes traceroute-based estimates from ping-based ones, improving data readability.
+
+Reza Dehghan-Niri
