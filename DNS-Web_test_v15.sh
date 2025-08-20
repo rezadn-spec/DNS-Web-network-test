@@ -12,7 +12,7 @@ INITIAL_TTL=64
 echo "timestamp,domain,test_no,dns_server,hop_count_traceroute,hop_count_ping,public_ip_ifconfig,public_ip_ipinfo,private_ip_ifconfig,dns_lookup_time,ping_time,ttl_ping,tcp_connect_time,tls_handshake_time,ttfb,total_time,internal_dns_query_time,internal_dns_ttl,default_dns_ttl" > "$OUTPUT_FILE"
 
 for DOMAIN in "${DOMAINS[@]}"; do
-    for ((i=1; i<=5; i++)); do
+    for ((i=1; i<=100; i++)); do
         TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
         UNIQUE_PREFIX=$(date +%s)
         BUSTED_DOMAIN="${UNIQUE_PREFIX}.${DOMAIN}"
