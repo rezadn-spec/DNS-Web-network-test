@@ -2,7 +2,7 @@
 
 DOMAINS=("www.bahn.de" "www.dhl.de" "www.wetter.com")
 OUTPUT_FILE="dns_test_results_v12.csv"
-INTERNAL_DNS="61.8.132.52"
+INTERNAL_DNS="Hidden"
 
 echo "timestamp,domain,test_no,dns_server,ttl,hop_count,public_ip_ifconfig,public_ip_ipinfo,dns_lookup_time,ping_time,ttl_ping,tcp_connect_time,tls_handshake_time,ttfb,total_time,internal_dns_query_time,internal_dns_ttl,default_dns_ttl" > "$OUTPUT_FILE"
 
