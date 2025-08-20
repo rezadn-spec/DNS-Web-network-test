@@ -13,21 +13,20 @@ This bash script performs DNS responsiveness testing with cache busting, interna
 - Public IP detection
 - Web response timing (TCP, TLS, TTFB)
 
------------------------------------------------------------------------------------
-What's New in v1.5
-RAN/Private IP Detection
-Extracts the UE’s private IP (typically 10.x.x.x) from the rmnet interface using ifconfig.
+## What's New in v1.5
 
-Helps correlate DNS performance with the device’s position in the Radio Access Network (RAN).
+### RAN/Private IP Detection
+- Extracts the UE’s private IP (typically `10.x.x.x`) from the `rmnet` interface using `ifconfig`.
+- Helps correlate DNS performance with the device’s position in the Radio Access Network (RAN).
 
-Estimated Hop Count from Ping
-Introduced hop_count_ping, calculated as: Estimated hops = Initial TTL (64) − Received TTL
+### Estimated Hop Count from Ping
+- Introduced `hop_count_ping`, calculated as:  
+  `Estimated hops = Initial TTL (64) − Received TTL`
+- Offers an alternative to traceroute for estimating network path length.
+- Especially useful when ICMP behavior differs from TCP.
 
-Offers an alternative to traceroute for estimating network path length, especially useful when ICMP behavior differs from TCP.
+### Metric Renaming
+- Renamed `hop_count` to `hop_count_traceroute` for clarity.
+- Distinguishes traceroute-based estimates from ping-based ones, improving data readability.
 
-Metric Renaming
-Renamed hop_count to hop_count_traceroute for clarity.
-
-Distinguishes traceroute-based estimates from ping-based ones, improving data readability.
-
-Reza Dehghan-Niri
+  Reza Dehghan Niri
