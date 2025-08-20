@@ -1,7 +1,7 @@
 # DNS-Web-network-test
 Bash script for DNS and web response testing with cache busting, TTL analysis, and internal DNS comparison. A lightweight diagnostic tool for analyzing DNS performance and network topology on mobile devices. Built for Linux-based environments.
 
-# DNS & Web Response Test Script
+# DNS & Web Response Test Script v1.2
 
 This bash script performs DNS responsiveness testing with cache busting, internal DNS comparison, ping latency, and TTL analysis. Designed for Linux environments (including Termux on Android).
 
