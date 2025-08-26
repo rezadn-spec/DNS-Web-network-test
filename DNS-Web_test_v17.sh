@@ -54,7 +54,7 @@ while true; do
         sleep $WAIT_BETWEEN_DOMAINS
     done
 
-    echo "=== Cycle $cycle completed at $(date '+%Y-%m-%d %H:%M:%S'). Waiting 30 minutes before next cycle. ==="
+    echo "=== Cycle $cycle completed at $(date '+%Y-%m-%d %H:%M:%S'). Waiting 15 minutes before next cycle. ==="
     ((cycle++))
     sleep $WAIT_BETWEEN_CYCLES
 done
