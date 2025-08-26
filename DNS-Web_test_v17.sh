@@ -5,7 +5,7 @@ OUTPUT_FILE="/storage/emulated/0/Download/dns_test_results_v17.csv"
 INTERNAL_DNS="61.8.132.52"
 INITIAL_TTL=64
 WAIT_BETWEEN_DOMAINS=12
-WAIT_BETWEEN_CYCLES=1800
+WAIT_BETWEEN_CYCLES=900
 
 if [ ! -f "$OUTPUT_FILE" ]; then
     echo "timestamp,domain,cycle_no,dns_server,hop_count_traceroute,hop_count_ping,public_ip_ifconfig,public_ip_ipinfo,private_ip_ifconfig,dns_lookup_time,ping_time,ttl_ping,tcp_connect_time,tls_handshake_time,ttfb,total_time,internal_dns_query_time,internal_dns_ttl,default_dns_ttl" > "$OUTPUT_FILE"
